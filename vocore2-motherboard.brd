@@ -4782,30 +4782,31 @@ Please make sure your boards conform to these design rules.
 <wire x1="15.14" y1="10.367" x2="16.492" y2="10.367" width="1.12" layer="1"/>
 </signal>
 <signal name="LED_LAN_ACT">
-<contactref element="U1" pad="136_2"/>
-<contactref element="U1" pad="136_1"/>
-<wire x1="41.46" y1="12.272" x2="40.114" y2="12.272" width="1.12" layer="1"/>
-<contactref element="IC7" pad="1"/>
-<wire x1="40.114" y1="12.272" x2="39.172" y2="12.272" width="0.15" layer="1"/>
-<wire x1="39.172" y1="12.272" x2="38.8" y2="11.9" width="0.15" layer="1"/>
-<wire x1="38.8" y1="11.9" x2="38.8" y2="2.2" width="0.15" layer="1"/>
-<wire x1="38.8" y1="2.2" x2="38.1" y2="1.5" width="0.15" layer="1"/>
-<wire x1="38.1" y1="1.5" x2="30.09" y2="1.5" width="0.15" layer="1"/>
+<contactref element="U1" pad="143_1"/>
+<contactref element="U1" pad="143_2"/>
+<wire x1="41.46" y1="17.352" x2="40.114" y2="17.352" width="1.12" layer="1"/>
+<contactref element="IC7" pad="3"/>
+<wire x1="40.114" y1="17.352" x2="39.452" y2="17.352" width="0.15" layer="1"/>
+<wire x1="39.452" y1="17.352" x2="38.8341" y2="16.7341" width="0.15" layer="1"/>
+<wire x1="38.8341" y1="16.7341" x2="38.8341" y2="2.46369375" width="0.15" layer="1"/>
+<wire x1="38.8341" y1="2.46369375" x2="38.13630625" y2="1.7659" width="0.15" layer="1"/>
+<wire x1="32.0341" y1="1.7659" x2="31.7" y2="2.1" width="0.15" layer="1"/>
+<wire x1="31.7" y1="2.1" x2="31.7" y2="3" width="0.15" layer="1"/>
+<wire x1="31.7" y1="3" x2="31.3" y2="3.4" width="0.15" layer="1"/>
+<wire x1="31.3" y1="3.4" x2="30.09" y2="3.4" width="0.15" layer="1"/>
+<wire x1="38.13630625" y1="1.7659" x2="32.0341" y2="1.7659" width="0.15" layer="1"/>
 </signal>
 <signal name="LED_LAN_LNK">
 <contactref element="U1" pad="137_2"/>
 <contactref element="U1" pad="137_1"/>
 <wire x1="41.46" y1="13.542" x2="40.114" y2="13.542" width="1.12" layer="1"/>
-<contactref element="IC7" pad="3"/>
-<wire x1="40.114" y1="13.542" x2="39.042" y2="13.542" width="0.15" layer="1"/>
-<wire x1="39.042" y1="13.542" x2="38.5111" y2="13.0111" width="0.15" layer="1"/>
-<wire x1="38.5111" y1="13.0111" x2="38.5111" y2="2.34895625" width="0.15" layer="1"/>
-<wire x1="38.5111" y1="2.34895625" x2="37.95104375" y2="1.7889" width="0.15" layer="1"/>
-<wire x1="32.6111" y1="1.7889" x2="32.3" y2="2.1" width="0.15" layer="1"/>
-<wire x1="37.95104375" y1="1.7889" x2="32.6111" y2="1.7889" width="0.15" layer="1"/>
-<wire x1="32.3" y1="3.1" x2="32.3" y2="2.1" width="0.15" layer="1"/>
-<wire x1="30.09" y1="3.4" x2="32" y2="3.4" width="0.15" layer="1"/>
-<wire x1="32" y1="3.4" x2="32.3" y2="3.1" width="0.15" layer="1"/>
+<wire x1="40.114" y1="13.542" x2="39.542" y2="13.542" width="0.15" layer="1"/>
+<wire x1="39.542" y1="13.542" x2="39.1111" y2="13.1111" width="0.15" layer="1"/>
+<wire x1="39.1111" y1="13.1111" x2="39.1111" y2="2.34895625" width="0.15" layer="1"/>
+<wire x1="39.1111" y1="2.34895625" x2="38.25104375" y2="1.4889" width="0.15" layer="1"/>
+<contactref element="IC7" pad="1"/>
+<wire x1="30.1011" y1="1.4889" x2="30.09" y2="1.5" width="0.15" layer="1"/>
+<wire x1="38.25104375" y1="1.4889" x2="30.1011" y2="1.4889" width="0.15" layer="1"/>
 </signal>
 <signal name="N$43">
 <contactref element="U1" pad="139_1"/>
@@ -4826,11 +4827,6 @@ Please make sure your boards conform to these design rules.
 <contactref element="U1" pad="142_2"/>
 <contactref element="U1" pad="142_1"/>
 <wire x1="41.46" y1="16.082" x2="40.114" y2="16.082" width="1.12" layer="1"/>
-</signal>
-<signal name="N$47">
-<contactref element="U1" pad="143_1"/>
-<contactref element="U1" pad="143_2"/>
-<wire x1="41.46" y1="17.352" x2="40.114" y2="17.352" width="1.12" layer="1"/>
 </signal>
 <signal name="N$49">
 <contactref element="U1" pad="18_1"/>
@@ -5753,6 +5749,11 @@ Please make sure your boards conform to these design rules.
 <wire x1="-37.5" y1="31.1" x2="-34.90856875" y2="31.1" width="0.3" layer="1"/>
 <wire x1="-33.61966875" y1="29.8111" x2="-30.4111" y2="29.8111" width="0.3" layer="1"/>
 <wire x1="-34.90856875" y1="31.1" x2="-33.61966875" y2="29.8111" width="0.3" layer="1"/>
+</signal>
+<signal name="N$34">
+<contactref element="U1" pad="136_2"/>
+<contactref element="U1" pad="136_1"/>
+<wire x1="40.114" y1="12.272" x2="41.46" y2="12.272" width="1.12" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

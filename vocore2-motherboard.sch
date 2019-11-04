@@ -22779,6 +22779,7 @@ Output</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="78.74" y1="142.24" x2="78.74" y2="144.78" width="0.1524" layer="91"/>
 <junction x="78.74" y="142.24"/>
+<junction x="40.64" y="142.24"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
@@ -23747,9 +23748,9 @@ Output</text>
 </net>
 <net name="LED_LAN_ACT" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO37"/>
-<wire x1="106.68" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
-<label x="109.22" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="GPIO43"/>
+<wire x1="106.68" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<label x="111.76" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LED_LAN_LNK" class="0">
@@ -23781,12 +23782,6 @@ Output</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO42"/>
 <wire x1="106.68" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO43"/>
-<wire x1="106.68" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -23914,6 +23909,12 @@ Output</text>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="SP1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="25.4" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO37"/>
+<wire x1="106.68" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -24297,13 +24298,6 @@ Output</text>
 <wire x1="233.68" y1="114.3" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED_LAN_ACT" class="0">
-<segment>
-<pinref part="IC7" gate="A" pin="I"/>
-<wire x1="251.46" y1="114.3" x2="254" y2="114.3" width="0.1524" layer="91"/>
-<label x="254" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$67" class="0">
 <segment>
 <pinref part="IC7" gate="B" pin="O"/>
@@ -24313,9 +24307,9 @@ Output</text>
 </net>
 <net name="LED_LAN_LNK" class="0">
 <segment>
-<pinref part="IC7" gate="B" pin="I"/>
-<wire x1="256.54" y1="96.52" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
-<label x="259.08" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC7" gate="A" pin="I"/>
+<wire x1="251.46" y1="114.3" x2="254" y2="114.3" width="0.1524" layer="91"/>
+<label x="254" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VC_3V3" class="0">
@@ -24323,6 +24317,13 @@ Output</text>
 <pinref part="IC7" gate="C" pin="VCC"/>
 <wire x1="233.68" y1="144.78" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
 <label x="233.68" y="147.32" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LED_LAN_ACT" class="0">
+<segment>
+<pinref part="IC7" gate="B" pin="I"/>
+<wire x1="256.54" y1="96.52" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
+<label x="259.08" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
