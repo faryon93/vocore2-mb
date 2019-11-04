@@ -22188,7 +22188,15 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2k7 / 1%"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2k7 / 1%">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="RR08P2.7KDCT-ND"/>
+</part>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
@@ -22220,15 +22228,12 @@ www.irf.com&lt;p&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
 <part name="IC4" library="texas" deviceset="LM3671" device="" value="LM3671MF-3.3">
+<attribute name="DIGIKEY" value="LM3671MF-3.3/NOPBCT-ND"/>
 <attribute name="FARNELL" value="1685767"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="0,704"/>
 </part>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="4.7µF">
-<attribute name="BUERKLIN" value="53D2086"/>
-<attribute name="MBM" value="10"/>
-<attribute name="PREIS" value="0,10"/>
+<attribute name="DIGIKEY" value="1276-2087-1-ND"/>
 </part>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="10µF">
 <attribute name="BUERKLIN" value="53D2088"/>
@@ -22237,22 +22242,18 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="L10" library="inductor-coilcraft" deviceset="DO3314" device="" value="2.2µH">
+<attribute name="DIGIKEY" value="445-8725-1-ND"/>
 <attribute name="FARNELL" value="2457514"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="1,70"/>
 </part>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="IC3" library="texas" deviceset="LM3671" device="" value="LM3671MF-3.3">
+<attribute name="DIGIKEY" value="LM3671MF-3.3/NOPBCT-ND"/>
 <attribute name="FARNELL" value="1685767"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="0,704"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="4.7µF">
-<attribute name="BUERKLIN" value="53D2086"/>
-<attribute name="MBM" value="10"/>
-<attribute name="PREIS" value="0,10"/>
+<attribute name="DIGIKEY" value="1276-2087-1-ND"/>
 </part>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="10µF">
 <attribute name="BUERKLIN" value="53D2088"/>
@@ -22261,21 +22262,17 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="L2" library="inductor-coilcraft" deviceset="DO3314" device="" value="2.2µH">
+<attribute name="DIGIKEY" value="445-8725-1-ND"/>
 <attribute name="FARNELL" value="2457514"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="1,70"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC5" library="texas" deviceset="LM3671" device="" value="LM3671MF-3.3">
+<attribute name="DIGIKEY" value="LM3671MF-3.3/NOPBCT-ND"/>
 <attribute name="FARNELL" value="1685767"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="0,704"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="4.7µF">
-<attribute name="BUERKLIN" value="53D2086"/>
-<attribute name="MBM" value="10"/>
-<attribute name="PREIS" value="0,10"/>
+<attribute name="DIGIKEY" value="1276-2087-1-ND"/>
 </part>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="10µF">
 <attribute name="BUERKLIN" value="53D2088"/>
@@ -22284,9 +22281,8 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="L3" library="inductor-coilcraft" deviceset="DO3314" device="" value="2.2µH">
+<attribute name="DIGIKEY" value="445-8725-1-ND"/>
 <attribute name="FARNELL" value="2457514"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="1,70"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN">
@@ -22327,9 +22323,8 @@ www.irf.com&lt;p&gt;
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X6" library="con-usb-3" deviceset="USB" device="-MB-S"/>
 <part name="D4" library="diode" deviceset="PRTR5V0U2X" device="">
+<attribute name="DIGIKEY" value="1727-3884-1-ND"/>
 <attribute name="FARNELL" value="1524157"/>
-<attribute name="MBM" value="5"/>
-<attribute name="PREIS" value="0,311"/>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="10nF">
 <attribute name="BUERKLIN" value="56D144"/>
@@ -22425,15 +22420,87 @@ www.irf.com&lt;p&gt;
 <part name="J2" library="ethernet-transformer" deviceset="TE_1775470-8" device="">
 <attribute name="DIGIKEY" value="A100058CT-ND"/>
 </part>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V"/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V"/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V"/>
-<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1808" package3d_urn="urn:adsk.eagle:package:23689/2" value="1nF / 2.5kV"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="490-4780-1-ND"/>
+</part>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="490-4780-1-ND"/>
+</part>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="490-4780-1-ND"/>
+</part>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF / 100V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="490-4780-1-ND"/>
+</part>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75R">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="RNCP0603FTD75R0CT-ND‎"/>
+</part>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75R">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="RNCP0603FTD75R0CT-ND‎"/>
+</part>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75R">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="RNCP0603FTD75R0CT-ND‎"/>
+</part>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75R">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="RNCP0603FTD75R0CT-ND‎"/>
+</part>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1808" package3d_urn="urn:adsk.eagle:package:23689/2" value="1nF / 2.5kV">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIGIKEY" value="399-7246-1-ND"/>
+</part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="C57" library="rcl" deviceset="C-EU" device="C0805" value="10nF 500V">
 <attribute name="BUERKLIN" value="56D510"/>
@@ -22442,9 +22509,7 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND75" library="supply1" deviceset="GND" device=""/>
 <part name="L8" library="rcl" deviceset="L-EU" device="L0805">
-<attribute name="FARNELL" value="1515661"/>
-<attribute name="MBM" value="10"/>
-<attribute name="PREIS" value="0,0595"/>
+<attribute name="DIGIKEY" value="490-1054-1-ND"/>
 </part>
 <part name="GND78" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
@@ -22453,9 +22518,8 @@ www.irf.com&lt;p&gt;
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
 <part name="IC7" library="74xx-little-de" deviceset="74*2G17" device="DBV">
+<attribute name="DIGIKEY" value="296-SN74LVC2G17DBVRCT-ND"/>
 <attribute name="FARNELL" value="1470776"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="0,616"/>
 </part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
@@ -22473,7 +22537,9 @@ www.irf.com&lt;p&gt;
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:28738/2">
+<attribute name="DIGIKEY" value="BSS123LT1GOSCT-ND‎"/>
+</part>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -22566,20 +22632,17 @@ Output</text>
 </instance>
 <instance part="IC4" gate="A" x="177.8" y="147.32" smashed="yes">
 <attribute name="FARNELL" x="177.8" y="147.32" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="177.8" y="147.32" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="177.8" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="165.1" y="156.21" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="165.1" y="137.16" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+<attribute name="DIGIKEY" x="177.8" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND63" gate="1" x="160.02" y="137.16" smashed="yes">
 <attribute name="VALUE" x="157.48" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="C32" gate="G$1" x="149.86" y="147.32" smashed="yes">
-<attribute name="BUERKLIN" x="149.86" y="147.32" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="149.86" y="147.32" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="149.86" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="151.384" y="147.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.384" y="142.621" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="149.86" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="220.98" y="147.32" smashed="yes">
 <attribute name="BUERKLIN" x="220.98" y="147.32" size="1.778" layer="96" display="off"/>
@@ -22593,30 +22656,26 @@ Output</text>
 </instance>
 <instance part="L10" gate="A" x="203.2" y="152.4" smashed="yes" rot="R90">
 <attribute name="FARNELL" x="203.2" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MBM" x="203.2" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PREIS" x="203.2" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="196.85" y="154.94" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="209.55" y="154.94" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="203.2" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND65" gate="1" x="220.98" y="137.16" smashed="yes">
 <attribute name="VALUE" x="218.44" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="A" x="177.8" y="116.84" smashed="yes">
 <attribute name="FARNELL" x="177.8" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="177.8" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="177.8" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="165.1" y="125.73" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="165.1" y="106.68" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+<attribute name="DIGIKEY" x="177.8" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="160.02" y="106.68" smashed="yes">
 <attribute name="VALUE" x="157.48" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="C11" gate="G$1" x="149.86" y="116.84" smashed="yes">
-<attribute name="BUERKLIN" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="151.384" y="117.221" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.384" y="112.141" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="220.98" y="116.84" smashed="yes">
 <attribute name="BUERKLIN" x="220.98" y="116.84" size="1.778" layer="96" display="off"/>
@@ -22630,30 +22689,26 @@ Output</text>
 </instance>
 <instance part="L2" gate="A" x="203.2" y="121.92" smashed="yes" rot="R90">
 <attribute name="FARNELL" x="203.2" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MBM" x="203.2" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PREIS" x="203.2" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="196.85" y="124.46" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="209.55" y="124.46" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="203.2" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="220.98" y="106.68" smashed="yes">
 <attribute name="VALUE" x="218.44" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="IC5" gate="A" x="177.8" y="86.36" smashed="yes">
 <attribute name="FARNELL" x="177.8" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="177.8" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="177.8" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="165.1" y="95.25" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="165.1" y="76.2" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+<attribute name="DIGIKEY" x="177.8" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="160.02" y="76.2" smashed="yes">
 <attribute name="VALUE" x="157.48" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="G$1" x="149.86" y="86.36" smashed="yes">
-<attribute name="BUERKLIN" x="149.86" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="149.86" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="149.86" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="151.384" y="86.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.384" y="81.661" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="149.86" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="220.98" y="86.36" smashed="yes">
 <attribute name="BUERKLIN" x="220.98" y="86.36" size="1.778" layer="96" display="off"/>
@@ -22667,10 +22722,9 @@ Output</text>
 </instance>
 <instance part="L3" gate="A" x="203.2" y="91.44" smashed="yes" rot="R90">
 <attribute name="FARNELL" x="203.2" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MBM" x="203.2" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PREIS" x="203.2" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="196.85" y="93.98" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="209.55" y="93.98" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="203.2" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="220.98" y="76.2" smashed="yes">
 <attribute name="VALUE" x="218.44" y="73.66" size="1.778" layer="96"/>
@@ -23206,10 +23260,9 @@ Output</text>
 </instance>
 <instance part="D4" gate="G$1" x="88.9" y="22.86" smashed="yes" rot="R90">
 <attribute name="FARNELL" x="88.9" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MBM" x="88.9" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PREIS" x="88.9" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="78.74" y="17.7165" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="98.9965" y="17.7165" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="88.9" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="68.58" y="25.4" smashed="yes">
 <attribute name="BUERKLIN" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
@@ -23278,6 +23331,7 @@ Output</text>
 <instance part="Q1" gate="G$1" x="15.24" y="20.32" smashed="yes">
 <attribute name="NAME" x="17.78" y="20.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.78" y="17.78" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="15.24" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND38" gate="1" x="15.24" y="10.16" smashed="yes">
 <attribute name="VALUE" x="12.7" y="7.62" size="1.778" layer="96"/>
@@ -23957,36 +24011,45 @@ Output</text>
 </instance>
 <instance part="C20" gate="G$1" x="119.38" y="119.38" smashed="yes">
 <attribute name="NAME" x="120.904" y="119.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="110.744" y="127.381" size="1.778" layer="96"/>
+<attribute name="VALUE" x="128.524" y="119.761" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="119.38" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="111.76" y="119.38" smashed="yes">
 <attribute name="NAME" x="113.284" y="119.761" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="111.76" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="152.4" y="119.38" smashed="yes">
 <attribute name="NAME" x="153.924" y="119.761" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="152.4" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C23" gate="G$1" x="165.1" y="119.38" smashed="yes">
 <attribute name="NAME" x="166.624" y="119.761" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="165.1" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="111.76" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.2614" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="125.73" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="111.76" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="119.38" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.8814" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="125.73" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="119.38" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="152.4" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="150.9014" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="155.702" y="125.73" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="152.4" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="165.1" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="163.6014" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="168.402" y="125.73" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="165.1" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="134.62" y="142.24" smashed="yes">
 <attribute name="NAME" x="136.144" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="137.541" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="134.62" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND34" gate="1" x="134.62" y="149.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="137.16" y="152.4" size="1.778" layer="96" rot="R180"/>
@@ -24002,11 +24065,9 @@ Output</text>
 <attribute name="VALUE" x="233.68" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L8" gate="G$1" x="215.9" y="106.68" smashed="yes" rot="R270">
-<attribute name="FARNELL" x="215.9" y="106.68" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="MBM" x="215.9" y="106.68" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="PREIS" x="215.9" y="106.68" size="1.27" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="212.09" y="108.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.09" y="103.378" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="215.9" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND78" gate="1" x="226.06" y="106.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="228.6" y="104.14" size="1.778" layer="96" rot="R90"/>
@@ -24026,6 +24087,7 @@ Output</text>
 <instance part="IC7" gate="B" x="248.92" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="247.65" y="93.345" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="247.65" y="101.6" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="DIGIKEY" x="248.92" y="96.52" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="IC7" gate="C" x="233.68" y="137.16" smashed="yes">
 <attribute name="NAME" x="233.045" y="136.525" size="1.778" layer="95"/>
@@ -24391,6 +24453,7 @@ XRSTJ=1: RESET deasserted</text>
 <instance part="R1" gate="G$1" x="68.58" y="33.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="72.39" y="34.5186" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="72.39" y="29.718" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="68.58" y="33.02" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="78.74" y="33.02" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="81.28" y="35.56" size="1.778" layer="96" rot="MR270"/>
