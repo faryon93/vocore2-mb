@@ -23525,13 +23525,13 @@ Output</text>
 <label x="109.22" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="175.26" y1="152.4" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
-<label x="137.16" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="162.56" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
-<junction x="172.72" y="152.4"/>
+<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="210.82" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
+<label x="238.76" y="154.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="162.56" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
+<junction x="228.6" y="154.94"/>
 </segment>
 </net>
 <net name="VC_SD_D2" class="0">
@@ -23695,13 +23695,13 @@ Output</text>
 <label x="109.22" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="210.82" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
-<label x="238.76" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="162.56" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
-<junction x="228.6" y="154.94"/>
+<pinref part="J3" gate="G$1" pin="7"/>
+<wire x1="175.26" y1="152.4" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
+<label x="137.16" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="162.56" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
+<junction x="172.72" y="152.4"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
@@ -23814,7 +23814,7 @@ Output</text>
 </instance>
 <instance part="C20" gate="G$1" x="68.58" y="55.88" smashed="yes" rot="MR180">
 <attribute name="NAME" x="65.659" y="59.436" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="63.119" y="59.436" size="1.778" layer="96" rot="MR270"/>
+<attribute name="VALUE" x="98.044" y="58.039" size="1.778" layer="96" rot="MR180"/>
 <attribute name="DIGIKEY" x="68.58" y="55.88" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="76.2" y="55.88" smashed="yes" rot="MR180">
