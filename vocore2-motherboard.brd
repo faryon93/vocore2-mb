@@ -2936,7 +2936,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="73" x="-2.6" y="35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="3.9" y="71.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN" x="-46" y="14" smashed="yes">
+<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="RED" x="-46" y="14" smashed="yes">
 <attribute name="FARNELL" value="1686076" x="-52.2" y="21.5" size="1.778" layer="27" display="off"/>
 <attribute name="MBM" value="5" x="-52.2" y="21.5" size="1.778" layer="27" display="off"/>
 <attribute name="PREIS" value="0,20" x="-52.2" y="21.5" size="1.778" layer="27" display="off"/>
@@ -2994,7 +2994,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="DIGIKEY" value="445-8725-1-ND" x="-43.55" y="56.45" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2457514" x="-43.55" y="46.65" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN" x="44.3" y="39.6" smashed="yes">
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="ORANGE" x="44.3" y="39.6" smashed="yes">
 <attribute name="FARNELL" value="1686076" x="38.1" y="47.1" size="1.778" layer="27" display="off"/>
 <attribute name="MBM" value="5" x="38.1" y="47.1" size="1.778" layer="27" display="off"/>
 <attribute name="PREIS" value="0,20" x="38.1" y="47.1" size="1.778" layer="27" display="off"/>
@@ -3004,7 +3004,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="70" x="44.3" y="39.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="51.8" y="33.4" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN" x="10.8" y="39.6" smashed="yes">
+<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="ORANGE" x="10.8" y="39.6" smashed="yes">
 <attribute name="FARNELL" value="1686076" x="4.6" y="47.1" size="1.778" layer="27" display="off"/>
 <attribute name="MBM" value="5" x="4.6" y="47.1" size="1.778" layer="27" display="off"/>
 <attribute name="PREIS" value="0,20" x="4.6" y="47.1" size="1.778" layer="27" display="off"/>
@@ -3014,7 +3014,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="70" x="10.8" y="39.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="18.3" y="33.4" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN" x="-22.7" y="39.6" smashed="yes">
+<element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="ORANGE" x="-22.7" y="39.6" smashed="yes">
 <attribute name="FARNELL" value="1686076" x="-28.9" y="47.1" size="1.778" layer="27" display="off"/>
 <attribute name="MBM" value="5" x="-28.9" y="47.1" size="1.778" layer="27" display="off"/>
 <attribute name="PREIS" value="0,20" x="-28.9" y="47.1" size="1.778" layer="27" display="off"/>

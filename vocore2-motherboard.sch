@@ -22219,7 +22219,7 @@ www.irf.com&lt;p&gt;
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN">
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="RED">
 <attribute name="FARNELL" value="1686076"/>
 <attribute name="MBM" value="5"/>
 <attribute name="PREIS" value="0,20"/>
@@ -22285,7 +22285,7 @@ www.irf.com&lt;p&gt;
 <attribute name="FARNELL" value="2457514"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN">
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="ORANGE">
 <attribute name="FARNELL" value="1686076"/>
 <attribute name="MBM" value="5"/>
 <attribute name="PREIS" value="0,20"/>
@@ -22293,7 +22293,7 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN">
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="ORANGE">
 <attribute name="FARNELL" value="1686076"/>
 <attribute name="MBM" value="5"/>
 <attribute name="PREIS" value="0,20"/>
@@ -22301,7 +22301,7 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
-<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN">
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="ORANGE">
 <attribute name="FARNELL" value="1686076"/>
 <attribute name="MBM" value="5"/>
 <attribute name="PREIS" value="0,20"/>
