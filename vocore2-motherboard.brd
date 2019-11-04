@@ -2848,6 +2848,7 @@ Please make sure your boards conform to these design rules.
 </element>
 <element name="U1" library="VOCORE2" package="VOCORE2_SMD" value="VOCORE2-SMD" x="28.3" y="19" smashed="yes"/>
 <element name="X5" library="con-phoenix-381_l" package="MC3-G" value="MC3-G" x="-35" y="5.852" smashed="yes">
+<attribute name="DIGIKEY" value="‎277-1207-ND‎;‎277-13872-ND‎" x="-35" y="5.852" size="1.778" layer="27" display="off"/>
 <attribute name="LCSC" value="C8406;C8413" x="-35" y="5.852" size="1.778" layer="27" display="off"/>
 </element>
 <element name="F1" library="C-Mount3.1" package="1812" value="500mA" x="-33.1" y="16.6" smashed="yes" rot="R180">
