@@ -1,0 +1,17 @@
+# osx finder cache
+._*
+.DS_Store
+
+# subversion configuration
+.svn/
+
+# eagle forward/backward files
+*.b#*
+*.s#*
+*.emn
+*.emp
+*.log
+*.zip
+
+backup/
+gerber/
