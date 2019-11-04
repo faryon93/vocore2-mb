@@ -2945,7 +2945,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="70" x="-44.4" y="14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-51.9" y="7.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IC4" library="texas" package="SOT95P284X122-5N" value="LM3761MF-3.3" x="23.5" y="60.35" smashed="yes" rot="R270">
+<element name="IC4" library="texas" package="SOT95P284X122-5N" value="LM3671MF-3.3" x="23.5" y="60.35" smashed="yes" rot="R270">
 <attribute name="FARNELL" value="1685767" x="23.5" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MBM" value="1" x="23.5" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PREIS" value="0,704" x="23.5" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2965,7 +2965,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="MBM" value="1" x="23.5" y="46.65" size="1.778" layer="27" display="off"/>
 <attribute name="PREIS" value="1,70" x="23.5" y="46.65" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC3" library="texas" package="SOT95P284X122-5N" value="LM3761MF-3.3" x="-10.05" y="60.35" smashed="yes" rot="R270">
+<element name="IC3" library="texas" package="SOT95P284X122-5N" value="LM3671MF-3.3" x="-10.05" y="60.35" smashed="yes" rot="R270">
 <attribute name="FARNELL" value="1685767" x="-10.05" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MBM" value="1" x="-10.05" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PREIS" value="0,704" x="-10.05" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2985,7 +2985,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="MBM" value="1" x="-10.05" y="46.65" size="1.778" layer="27" display="off"/>
 <attribute name="PREIS" value="1,70" x="-10.05" y="46.65" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC5" library="texas" package="SOT95P284X122-5N" value="LM3761MF-3.3" x="-43.55" y="60.35" smashed="yes" rot="R270">
+<element name="IC5" library="texas" package="SOT95P284X122-5N" value="LM3671MF-3.3" x="-43.55" y="60.35" smashed="yes" rot="R270">
 <attribute name="FARNELL" value="1685767" x="-43.55" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MBM" value="1" x="-43.55" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PREIS" value="0,704" x="-43.55" y="60.35" size="1.778" layer="27" rot="R270" display="off"/>

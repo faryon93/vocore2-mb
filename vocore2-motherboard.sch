@@ -22219,7 +22219,7 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
-<part name="IC4" library="texas" deviceset="LM3671" device="" value="LM3761MF-3.3">
+<part name="IC4" library="texas" deviceset="LM3671" device="" value="LM3671MF-3.3">
 <attribute name="FARNELL" value="1685767"/>
 <attribute name="MBM" value="1"/>
 <attribute name="PREIS" value="0,704"/>
@@ -22243,7 +22243,7 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="IC3" library="texas" deviceset="LM3671" device="" value="LM3761MF-3.3">
+<part name="IC3" library="texas" deviceset="LM3671" device="" value="LM3671MF-3.3">
 <attribute name="FARNELL" value="1685767"/>
 <attribute name="MBM" value="1"/>
 <attribute name="PREIS" value="0,704"/>
@@ -22266,7 +22266,7 @@ www.irf.com&lt;p&gt;
 <attribute name="PREIS" value="1,70"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="IC5" library="texas" deviceset="LM3671" device="" value="LM3761MF-3.3">
+<part name="IC5" library="texas" deviceset="LM3671" device="" value="LM3671MF-3.3">
 <attribute name="FARNELL" value="1685767"/>
 <attribute name="MBM" value="1"/>
 <attribute name="PREIS" value="0,704"/>
