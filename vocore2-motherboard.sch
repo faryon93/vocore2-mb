@@ -23595,9 +23595,9 @@ Output</text>
 </net>
 <net name="LED_LAN_LNK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO38"/>
-<wire x1="116.84" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<label x="119.38" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="GPIO42"/>
+<wire x1="116.84" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<label x="121.92" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -23616,12 +23616,6 @@ Output</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO41"/>
 <wire x1="116.84" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO42"/>
-<wire x1="116.84" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -23799,6 +23793,12 @@ Output</text>
 <wire x1="205.74" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$35165" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO38"/>
+<wire x1="116.84" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -23904,14 +23904,14 @@ Output</text>
 <attribute name="VALUE" x="184.15" y="109.982" size="1.778" layer="96" rot="R180"/>
 <attribute name="DIGIKEY" x="180.34" y="106.68" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="IC7" gate="A" x="220.98" y="106.68" smashed="yes" rot="MR0">
-<attribute name="NAME" x="219.71" y="109.855" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="219.71" y="101.6" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="DIGIKEY" x="220.98" y="106.68" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="IC7" gate="A" x="223.52" y="88.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="222.25" y="92.075" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="229.87" y="96.52" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="DIGIKEY" x="223.52" y="88.9" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="IC7" gate="B" x="220.98" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="219.71" y="85.725" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="219.71" y="93.98" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="IC7" gate="B" x="223.52" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="222.25" y="103.505" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="229.87" y="116.84" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="IC7" gate="C" x="233.68" y="50.8" smashed="yes">
 <attribute name="NAME" x="233.045" y="50.165" size="1.778" layer="95"/>
@@ -24185,23 +24185,16 @@ Output</text>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="IC7" gate="A" pin="O"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$67" class="0">
-<segment>
-<pinref part="IC7" gate="B" pin="O"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="O"/>
+<wire x1="187.96" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_LAN_LNK" class="0">
 <segment>
 <pinref part="IC7" gate="A" pin="I"/>
-<wire x1="228.6" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
-<label x="231.14" y="106.68" size="1.27" layer="95" xref="yes"/>
+<wire x1="231.14" y1="88.9" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
+<label x="233.68" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VC_3V3" class="0">
@@ -24214,8 +24207,15 @@ Output</text>
 <net name="LED_LAN_ACT" class="0">
 <segment>
 <pinref part="IC7" gate="B" pin="I"/>
-<wire x1="228.6" y1="88.9" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="231.14" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="231.14" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
+<label x="233.68" y="106.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="IC7" gate="B" pin="O"/>
+<wire x1="185.42" y1="106.68" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
