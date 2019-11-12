@@ -229,6 +229,102 @@
 <libraries>
 <library name="pachl-con">
 <packages>
+<package name="TE_1775838-2-FULL">
+<wire x1="-14.95" y1="2.78" x2="-12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-12.95" y1="2.78" x2="-4.535" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-4.535" y1="2.78" x2="-3.165" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-3.165" y1="2.78" x2="12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="12.95" y1="2.78" x2="14.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="-2.78" width="0.127" layer="51"/>
+<wire x1="14.95" y1="-2.78" x2="-14.95" y2="-2.78" width="0.127" layer="51"/>
+<wire x1="-14.95" y1="-2.78" x2="-14.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-4.535" y1="2.78" x2="-4.535" y2="3.2" width="0.127" layer="51"/>
+<wire x1="-3.165" y1="2.78" x2="-3.165" y2="3.2" width="0.127" layer="51"/>
+<wire x1="-4.535" y1="3.2" x2="-3.165" y2="3.2" width="0.127" layer="51" curve="-233.13"/>
+<wire x1="-14.95" y1="2.78" x2="-14.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="-14.95" y1="5.42" x2="-12.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="-12.95" y1="5.42" x2="-12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="14.95" y1="5.42" x2="12.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="12.95" y1="5.42" x2="12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-14.95" y1="2.78" x2="-12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-12.95" y1="2.78" x2="-4.535" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-4.535" y1="2.78" x2="-3.165" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-3.165" y1="2.78" x2="12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="12.95" y1="2.78" x2="14.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="13" y1="-2.78" x2="-13" y2="-2.78" width="0.127" layer="21"/>
+<wire x1="-14.95" y1="2.78" x2="-14.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="-14.95" y1="5.42" x2="-12.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="-12.95" y1="5.42" x2="-12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="14.95" y1="5.42" x2="12.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="12.95" y1="5.42" x2="12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-4.535" y1="2.78" x2="-4.535" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-3.165" y1="2.78" x2="-3.165" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-4.535" y1="3.2" x2="-3.165" y2="3.2" width="0.127" layer="21" curve="-233.13"/>
+<wire x1="-14.95" y1="2.78" x2="-14.95" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="-1.2" width="0.127" layer="21"/>
+<text x="-15.1231" y="-6.8863" size="1.27193125" layer="25">&gt;NAME</text>
+<circle x="-12.8" y="-4.7" radius="0.2" width="0.4" layer="21"/>
+<smd name="18" x="-1.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="2" x="-11.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="4" x="-10.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="6" x="-9.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="8" x="-9" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="10" x="-8.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="12" x="-7.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="14" x="-6.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="16" x="-5.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="20" x="-1" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="22" x="-0.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="24" x="0.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="26" x="1.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="28" x="2.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="30" x="3" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="32" x="3.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="34" x="4.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="36" x="5.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="38" x="6.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="40" x="7" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="42" x="7.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="44" x="8.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="46" x="9.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="48" x="10.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="50" x="11" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="52" x="11.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="17" x="-2.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="1" x="-11.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="3" x="-11" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="5" x="-10.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="7" x="-9.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="9" x="-8.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="11" x="-7.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="13" x="-7" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="15" x="-6.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="19" x="-1.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="21" x="-0.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="23" x="0.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="25" x="1" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="27" x="1.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="29" x="2.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="31" x="3.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="33" x="4.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="35" x="5" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="37" x="5.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="39" x="6.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="41" x="7.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="43" x="8.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="45" x="9" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="47" x="9.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="49" x="10.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="51" x="11.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="SH1" x="-14.25" y="-3.5" dx="1.5" dy="3.2" layer="1"/>
+<smd name="SH2" x="14.25" y="-3.5" dx="1.5" dy="3.2" layer="1"/>
+<hole x="-12.5" y="0" drill="1.6"/>
+<hole x="12.5" y="0" drill="1.1"/>
+<pad name="P$1" x="-12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
+<pad name="P$2" x="12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
+</package>
 <package name="TE_1775838-2">
 <wire x1="-14.95" y1="2.78" x2="-12.95" y2="2.78" width="0.127" layer="51"/>
 <wire x1="-12.95" y1="2.78" x2="-4.535" y2="2.78" width="0.127" layer="51"/>
@@ -324,6 +420,8 @@
 <hole x="12.5" y="0" drill="1.1"/>
 <pad name="P$1" x="-12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
 <pad name="P$2" x="12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
+<pad name="P$3" x="-12.1" y="23.9" drill="3.7" diameter="6" thermals="no"/>
+<pad name="P$4" x="12.1" y="23.9" drill="3.7" diameter="6" thermals="no"/>
 </package>
 <package name="AMPHENOL_1140084168">
 <text x="5.21893125" y="-9.274090625" size="1.27078125" layer="25" align="center">&gt;NAME</text>
@@ -2885,20 +2983,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="OC_NEWARK" value="unknown" x="-29.6" y="29.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="2" x="-29.6" y="29.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="X1" library="pachl-con" package="TE_1775838-2" value="TE_1775838-2" x="33.5" y="48" smashed="yes">
-<attribute name="CENTERLINE_PITCH" value=".8 mm[.031 in]" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="COMMENT" value="1775838-2" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" mSATA/mini PCI-E 5.6H Type I G/F " x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="A123340CT-ND" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1775838-2/A123340CT-ND/5451751?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1775838-2" x="33.5" y="48" size="1.778" layer="27" display="off"/>
+<element name="X1" library="pachl-con" package="TE_1775838-2-FULL" value="TE_1775838-2-FULL" x="33.5" y="48" smashed="yes">
 <attribute name="NAME" x="18.3769" y="41.1137" size="1.27193125" layer="25"/>
-<attribute name="NUMBER_OF_POSITIONS" value="52" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="None" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="PRODUCT_TYPE" value="Connector" x="33.5" y="48" size="1.778" layer="27" display="off"/>
-<attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-1775838-2.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493" x="33.5" y="48" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC2" library="Ai_IC" package="FE1.1S_SSOP-28" value="FE1.1S" x="1.1" y="30.4" smashed="yes" rot="R180">
 <attribute name="LCSC" value="C9359" x="1.1" y="30.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3262,10 +3348,6 @@ Please make sure your boards conform to these design rules.
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="X3" pad="P$1"/>
-<contactref element="X3" pad="P$2"/>
-<contactref element="X2" pad="P$1"/>
-<contactref element="X2" pad="P$2"/>
 <polygon width="0.1" layer="1" rank="2">
 <vertex x="-50" y="100"/>
 <vertex x="50" y="100"/>
@@ -3294,8 +3376,6 @@ Please make sure your boards conform to these design rules.
 <via x="-34.6" y="1.6" extent="1-16" drill="0.31"/>
 <via x="-33.9" y="1.6" extent="1-16" drill="0.31"/>
 <via x="-33.2" y="1.6" extent="1-16" drill="0.31"/>
-<contactref element="X1" pad="P$1"/>
-<contactref element="X1" pad="P$2"/>
 <contactref element="IC2" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
@@ -3744,6 +3824,16 @@ Please make sure your boards conform to these design rules.
 <via x="19.4" y="32.5" extent="1-16" drill="0.35"/>
 <via x="19.4" y="34.8" extent="1-16" drill="0.35"/>
 <contactref element="R22" pad="1"/>
+<contactref element="X3" pad="P$1"/>
+<contactref element="X3" pad="P$3"/>
+<contactref element="X3" pad="P$4"/>
+<contactref element="X3" pad="P$2"/>
+<contactref element="X2" pad="P$1"/>
+<contactref element="X2" pad="P$3"/>
+<contactref element="X2" pad="P$4"/>
+<contactref element="X2" pad="P$2"/>
+<contactref element="X1" pad="P$1"/>
+<contactref element="X1" pad="P$2"/>
 </signal>
 <signal name="N$1">
 <via x="-46" y="85" extent="1-16" drill="3.1" diameter="6"/>

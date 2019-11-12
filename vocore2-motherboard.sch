@@ -331,6 +331,8 @@ DIN A4, landscape with location and doc. field</description>
 <hole x="12.5" y="0" drill="1.1"/>
 <pad name="P$1" x="-12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
 <pad name="P$2" x="12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
+<pad name="P$3" x="-12.1" y="23.9" drill="3.7" diameter="6" thermals="no"/>
+<pad name="P$4" x="12.1" y="23.9" drill="3.7" diameter="6" thermals="no"/>
 </package>
 <package name="AMPHENOL_1140084168">
 <text x="5.21893125" y="-9.274090625" size="1.27078125" layer="25" align="center">&gt;NAME</text>
@@ -358,6 +360,102 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="12" x="11.95" y="-2.663" dx="1.400640625" dy="0.8003625" layer="1" rot="R90"/>
 <smd name="CD2" x="0.355" y="-1.813" dx="1.500009375" dy="1.000009375" layer="1"/>
 <smd name="CD1" x="11.55" y="-0.213" dx="1.50193125" dy="1.001290625" layer="1" rot="R90"/>
+</package>
+<package name="TE_1775838-2-FULL">
+<wire x1="-14.95" y1="2.78" x2="-12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-12.95" y1="2.78" x2="-4.535" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-4.535" y1="2.78" x2="-3.165" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-3.165" y1="2.78" x2="12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="12.95" y1="2.78" x2="14.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="-2.78" width="0.127" layer="51"/>
+<wire x1="14.95" y1="-2.78" x2="-14.95" y2="-2.78" width="0.127" layer="51"/>
+<wire x1="-14.95" y1="-2.78" x2="-14.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-4.535" y1="2.78" x2="-4.535" y2="3.2" width="0.127" layer="51"/>
+<wire x1="-3.165" y1="2.78" x2="-3.165" y2="3.2" width="0.127" layer="51"/>
+<wire x1="-4.535" y1="3.2" x2="-3.165" y2="3.2" width="0.127" layer="51" curve="-233.13"/>
+<wire x1="-14.95" y1="2.78" x2="-14.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="-14.95" y1="5.42" x2="-12.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="-12.95" y1="5.42" x2="-12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="14.95" y1="5.42" x2="12.95" y2="5.42" width="0.127" layer="51"/>
+<wire x1="12.95" y1="5.42" x2="12.95" y2="2.78" width="0.127" layer="51"/>
+<wire x1="-14.95" y1="2.78" x2="-12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-12.95" y1="2.78" x2="-4.535" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-4.535" y1="2.78" x2="-3.165" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-3.165" y1="2.78" x2="12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="12.95" y1="2.78" x2="14.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="13" y1="-2.78" x2="-13" y2="-2.78" width="0.127" layer="21"/>
+<wire x1="-14.95" y1="2.78" x2="-14.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="-14.95" y1="5.42" x2="-12.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="-12.95" y1="5.42" x2="-12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="14.95" y1="5.42" x2="12.95" y2="5.42" width="0.127" layer="21"/>
+<wire x1="12.95" y1="5.42" x2="12.95" y2="2.78" width="0.127" layer="21"/>
+<wire x1="-4.535" y1="2.78" x2="-4.535" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-3.165" y1="2.78" x2="-3.165" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-4.535" y1="3.2" x2="-3.165" y2="3.2" width="0.127" layer="21" curve="-233.13"/>
+<wire x1="-14.95" y1="2.78" x2="-14.95" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="14.95" y1="2.78" x2="14.95" y2="-1.2" width="0.127" layer="21"/>
+<text x="-15.1231" y="-6.8863" size="1.27193125" layer="25">&gt;NAME</text>
+<circle x="-12.8" y="-4.7" radius="0.2" width="0.4" layer="21"/>
+<smd name="18" x="-1.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="2" x="-11.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="4" x="-10.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="6" x="-9.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="8" x="-9" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="10" x="-8.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="12" x="-7.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="14" x="-6.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="16" x="-5.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="20" x="-1" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="22" x="-0.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="24" x="0.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="26" x="1.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="28" x="2.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="30" x="3" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="32" x="3.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="34" x="4.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="36" x="5.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="38" x="6.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="40" x="7" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="42" x="7.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="44" x="8.6" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="46" x="9.4" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="48" x="10.2" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="50" x="11" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="52" x="11.8" y="4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="17" x="-2.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="1" x="-11.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="3" x="-11" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="5" x="-10.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="7" x="-9.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="9" x="-8.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="11" x="-7.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="13" x="-7" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="15" x="-6.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="19" x="-1.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="21" x="-0.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="23" x="0.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="25" x="1" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="27" x="1.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="29" x="2.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="31" x="3.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="33" x="4.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="35" x="5" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="37" x="5.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="39" x="6.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="41" x="7.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="43" x="8.2" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="45" x="9" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="47" x="9.8" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="49" x="10.6" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="51" x="11.4" y="-4.1" dx="0.6" dy="2" layer="1"/>
+<smd name="SH1" x="-14.25" y="-3.5" dx="1.5" dy="3.2" layer="1"/>
+<smd name="SH2" x="14.25" y="-3.5" dx="1.5" dy="3.2" layer="1"/>
+<hole x="-12.5" y="0" drill="1.6"/>
+<hole x="12.5" y="0" drill="1.1"/>
+<pad name="P$1" x="-12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
+<pad name="P$2" x="12.1" y="48.05" drill="3.7" diameter="6" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -509,7 +607,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="P8" pad="8"/>
 <connect gate="G$1" pin="P9" pad="9"/>
 <connect gate="G$1" pin="SHIELD" pad="SH1 SH2"/>
-<connect gate="G$2" pin="GND" pad="P$1"/>
+<connect gate="G$2" pin="GND" pad="P$1 P$3 P$4"/>
 <connect gate="G$3" pin="GND" pad="P$2"/>
 </connects>
 <technologies>
@@ -527,6 +625,68 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="PRODUCT_TYPE" value="Connector"/>
 <attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-1775838-2.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493"/>
 </technology>
+</technologies>
+</device>
+<device name="-FULL" package="TE_1775838-2-FULL">
+<connects>
+<connect gate="G$1" pin="P1" pad="1"/>
+<connect gate="G$1" pin="P10" pad="10"/>
+<connect gate="G$1" pin="P11" pad="11"/>
+<connect gate="G$1" pin="P12" pad="12"/>
+<connect gate="G$1" pin="P13" pad="13"/>
+<connect gate="G$1" pin="P14" pad="14"/>
+<connect gate="G$1" pin="P15" pad="15"/>
+<connect gate="G$1" pin="P16" pad="16"/>
+<connect gate="G$1" pin="P17" pad="17"/>
+<connect gate="G$1" pin="P18" pad="18"/>
+<connect gate="G$1" pin="P19" pad="19"/>
+<connect gate="G$1" pin="P2" pad="2"/>
+<connect gate="G$1" pin="P20" pad="20"/>
+<connect gate="G$1" pin="P21" pad="21"/>
+<connect gate="G$1" pin="P22" pad="22"/>
+<connect gate="G$1" pin="P23" pad="23"/>
+<connect gate="G$1" pin="P24" pad="24"/>
+<connect gate="G$1" pin="P25" pad="25"/>
+<connect gate="G$1" pin="P26" pad="26"/>
+<connect gate="G$1" pin="P27" pad="27"/>
+<connect gate="G$1" pin="P28" pad="28"/>
+<connect gate="G$1" pin="P29" pad="29"/>
+<connect gate="G$1" pin="P3" pad="3"/>
+<connect gate="G$1" pin="P30" pad="30"/>
+<connect gate="G$1" pin="P31" pad="31"/>
+<connect gate="G$1" pin="P32" pad="32"/>
+<connect gate="G$1" pin="P33" pad="33"/>
+<connect gate="G$1" pin="P34" pad="34"/>
+<connect gate="G$1" pin="P35" pad="35"/>
+<connect gate="G$1" pin="P36" pad="36"/>
+<connect gate="G$1" pin="P37" pad="37"/>
+<connect gate="G$1" pin="P38" pad="38"/>
+<connect gate="G$1" pin="P39" pad="39"/>
+<connect gate="G$1" pin="P4" pad="4"/>
+<connect gate="G$1" pin="P40" pad="40"/>
+<connect gate="G$1" pin="P41" pad="41"/>
+<connect gate="G$1" pin="P42" pad="42"/>
+<connect gate="G$1" pin="P43" pad="43"/>
+<connect gate="G$1" pin="P44" pad="44"/>
+<connect gate="G$1" pin="P45" pad="45"/>
+<connect gate="G$1" pin="P46" pad="46"/>
+<connect gate="G$1" pin="P47" pad="47"/>
+<connect gate="G$1" pin="P48" pad="48"/>
+<connect gate="G$1" pin="P49" pad="49"/>
+<connect gate="G$1" pin="P5" pad="5"/>
+<connect gate="G$1" pin="P50" pad="50"/>
+<connect gate="G$1" pin="P51" pad="51"/>
+<connect gate="G$1" pin="P52" pad="52"/>
+<connect gate="G$1" pin="P6" pad="6"/>
+<connect gate="G$1" pin="P7" pad="7"/>
+<connect gate="G$1" pin="P8" pad="8"/>
+<connect gate="G$1" pin="P9" pad="9"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2"/>
+<connect gate="G$2" pin="GND" pad="P$1"/>
+<connect gate="G$3" pin="GND" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22762,7 +22922,7 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 <part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL60P" device="" package3d_urn="urn:adsk.eagle:package:5261/1">
 <attribute name="LCSC" value="C252917"/>
 </part>
-<part name="X1" library="pachl-con" deviceset="TE_1775838-2" device=""/>
+<part name="X1" library="pachl-con" deviceset="TE_1775838-2" device="-FULL" value="TE_1775838-2-FULL"/>
 <part name="IC2" library="Ai_IC" deviceset="FE1.1S" device="">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
