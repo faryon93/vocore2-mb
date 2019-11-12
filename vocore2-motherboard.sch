@@ -21984,8 +21984,7 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="D3" library="diode" deviceset="DIODE-" device="SMB">
 <attribute name="FARNELL" value="1858651"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="0,393"/>
+<attribute name="LCSC" value="C110478"/>
 </part>
 <part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL60P" device="" package3d_urn="urn:adsk.eagle:package:5261/1">
 <attribute name="LCSC" value="C252917"/>
@@ -22209,8 +22208,7 @@ www.irf.com&lt;p&gt;
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SMB">
 <attribute name="FARNELL" value="1858651"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="0,393"/>
+<attribute name="LCSC" value="C110478"/>
 </part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="ethernet-transformer" deviceset="TE_1775470-8" device="">
@@ -22329,9 +22327,8 @@ www.irf.com&lt;p&gt;
 </spice>
 <attribute name="DIGIKEY" value="A129687CT-ND"/>
 </part>
-<part name="IC7" library="74xx-little-de" deviceset="74*2G17" device="DBV">
-<attribute name="DIGIKEY" value="296-SN74LVC2G17DBVRCT-ND"/>
-<attribute name="FARNELL" value="1470776"/>
+<part name="IC7" library="74xx-little-de" deviceset="74*2G17" device="DBV" value="SN74LVC2G14DBVR">
+<attribute name="DIGIKEY" value="296-13010-1-ND"/>
 </part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
@@ -22427,10 +22424,9 @@ Output</text>
 </instance>
 <instance part="D3" gate="G$1" x="38.1" y="154.94" smashed="yes">
 <attribute name="FARNELL" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="40.64" y="155.4226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="152.6286" size="1.778" layer="96"/>
+<attribute name="LCSC" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED3" gate="G$1" x="27.94" y="30.48" smashed="yes">
 <attribute name="NAME" x="31.496" y="25.908" size="1.778" layer="95" rot="R90"/>
@@ -23003,7 +22999,7 @@ Output</text>
 <description>VoCore &amp; UART Bridge</description>
 <plain>
 <text x="45.72" y="109.22" size="1.27" layer="98">tty console</text>
-<text x="44.704" y="93.726" size="1.27" layer="98">CS0 = NOR Flash !CS</text>
+<text x="31.75" y="85.344" size="1.27" layer="98">CS0 = NOR Flash !CS</text>
 <text x="93.98" y="38.1" size="2.54" layer="97" align="bottom-center">USB Schutzbeschaltung</text>
 </plain>
 <instances>
@@ -23021,16 +23017,16 @@ Output</text>
 <attribute name="VALUE" x="12.065" y="36.83" size="1.778" layer="96" rot="R270"/>
 <attribute name="LCSC" x="15.24" y="33.02" size="2.54" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C17" gate="G$1" x="27.94" y="134.62" smashed="yes">
-<attribute name="NAME" x="29.464" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="29.464" y="129.921" size="1.778" layer="96"/>
+<instance part="C17" gate="G$1" x="30.48" y="134.62" smashed="yes">
+<attribute name="NAME" x="32.004" y="135.001" size="1.778" layer="95"/>
+<attribute name="VALUE" x="32.004" y="129.921" size="1.778" layer="96"/>
 </instance>
-<instance part="C19" gate="G$1" x="38.1" y="134.62" smashed="yes">
-<attribute name="NAME" x="39.624" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.624" y="129.921" size="1.778" layer="96"/>
+<instance part="C19" gate="G$1" x="40.64" y="134.62" smashed="yes">
+<attribute name="NAME" x="42.164" y="135.001" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.164" y="129.921" size="1.778" layer="96"/>
 </instance>
-<instance part="GND24" gate="1" x="33.02" y="124.46" smashed="yes">
-<attribute name="VALUE" x="30.48" y="121.92" size="1.778" layer="96"/>
+<instance part="GND24" gate="1" x="35.56" y="124.46" smashed="yes">
+<attribute name="VALUE" x="33.02" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="GND25" gate="1" x="109.22" y="45.72" smashed="yes">
 <attribute name="VALUE" x="106.68" y="43.18" size="1.778" layer="96"/>
@@ -23098,9 +23094,9 @@ Output</text>
 <instance part="GND39" gate="1" x="137.16" y="55.88" smashed="yes">
 <attribute name="VALUE" x="134.62" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="C25" gate="G$1" x="17.78" y="134.62" smashed="yes">
-<attribute name="NAME" x="19.304" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.304" y="129.921" size="1.778" layer="96"/>
+<instance part="C25" gate="G$1" x="20.32" y="134.62" smashed="yes">
+<attribute name="NAME" x="21.844" y="135.001" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.844" y="129.921" size="1.778" layer="96"/>
 </instance>
 <instance part="J3" gate="G$1" x="193.04" y="154.94" smashed="yes">
 <attribute name="NAME" x="180.2714" y="163.58326875" size="2.08841875" layer="95" ratio="10" rot="SR0"/>
@@ -23165,17 +23161,17 @@ Output</text>
 <net name="+5V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="+5.0VI"/>
-<wire x1="66.04" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="137.16" x2="17.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="137.16" x2="20.32" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
-<junction x="27.94" y="137.16"/>
+<junction x="30.48" y="137.16"/>
 <pinref part="C19" gate="G$1" pin="1"/>
-<junction x="38.1" y="137.16"/>
-<label x="12.7" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="40.64" y="137.16"/>
+<label x="15.24" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C25" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="137.16" x2="12.7" y2="137.16" width="0.1524" layer="91"/>
-<junction x="17.78" y="137.16"/>
+<wire x1="20.32" y1="137.16" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
+<junction x="20.32" y="137.16"/>
 </segment>
 <segment>
 <pinref part="SP1" gate="G$1" pin="1"/>
@@ -23187,14 +23183,14 @@ Output</text>
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="129.54" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="33.02" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="127" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
-<junction x="33.02" y="129.54"/>
+<wire x1="35.56" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="127" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
+<junction x="35.56" y="129.54"/>
 <pinref part="C25" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="129.54" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
-<junction x="27.94" y="129.54"/>
+<wire x1="30.48" y1="129.54" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
+<junction x="30.48" y="129.54"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -23295,7 +23291,7 @@ Output</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="RXD"/>
 <wire x1="208.28" y1="127" x2="218.44" y2="127" width="0.1524" layer="91"/>
-<label x="218.44" y="127" size="1.778" layer="95" xref="yes"/>
+<label x="218.44" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="1"/>
@@ -23312,7 +23308,7 @@ Output</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="TXD"/>
 <wire x1="208.28" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
-<label x="210.82" y="129.54" size="1.778" layer="95" xref="yes"/>
+<label x="210.82" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
@@ -23329,7 +23325,7 @@ Output</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="VCCIO"/>
 <wire x1="177.8" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
-<label x="175.26" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="175.26" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
@@ -23708,7 +23704,7 @@ Output</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="USBDP"/>
 <wire x1="177.8" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
-<label x="162.56" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X6" gate="G$1" pin="D+"/>
@@ -23726,7 +23722,7 @@ Output</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="USBDM"/>
 <wire x1="177.8" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
-<label x="175.26" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="175.26" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X6" gate="G$1" pin="D-"/>
@@ -23759,7 +23755,7 @@ Output</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="VCC"/>
 <wire x1="177.8" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
-<label x="144.78" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="144.78" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="119.38" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
@@ -23800,10 +23796,9 @@ Output</text>
 </instance>
 <instance part="D2" gate="G$1" x="119.38" y="93.98" smashed="yes" rot="R180">
 <attribute name="FARNELL" x="119.38" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MBM" x="119.38" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="PREIS" x="119.38" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="116.84" y="93.4974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="116.84" y="96.2914" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="119.38" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="175.26" y="81.28" smashed="yes">
 <attribute name="VALUE" x="172.72" y="78.74" size="1.778" layer="96"/>
@@ -23888,11 +23883,11 @@ Output</text>
 <instance part="IC7" gate="A" x="220.98" y="106.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="219.71" y="109.855" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="219.71" y="101.6" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="DIGIKEY" x="220.98" y="106.68" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="IC7" gate="B" x="220.98" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="219.71" y="85.725" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="219.71" y="93.98" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="DIGIKEY" x="220.98" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="IC7" gate="C" x="233.68" y="50.8" smashed="yes">
 <attribute name="NAME" x="233.045" y="50.165" size="1.778" layer="95"/>
@@ -24204,7 +24199,7 @@ Output</text>
 <sheet>
 <description>Mini-PCIe &amp; USB-Hub</description>
 <plain>
-<text x="137.16" y="37.084" size="1.27" layer="98" rot="MR0">OVCJ=1: No Overcurrent detected
+<text x="116.84" y="32.004" size="1.27" layer="98" rot="MR0">OVCJ=1: No Overcurrent detected
 BUSJ=1: Host is powered up
 VBUSM=1: Self powered
 XRSTJ=1: RESET deasserted</text>
