@@ -23349,7 +23349,7 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 </spice>
 <attribute name="DIGIKEY" value="A129687CT-ND"/>
 </part>
-<part name="IC7" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*2G17" device="DBV" value="SN74LVC2G14DBVR">
+<part name="IC7" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" deviceset="74*2G17" device="DBV" value="742G17DBV">
 <attribute name="DIGIKEY" value="296-13010-1-ND"/>
 </part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>

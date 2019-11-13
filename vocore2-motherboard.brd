@@ -3292,7 +3292,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="70" x="-22.85" y="10.15" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-22.85" y="10.15" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="IC7" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" package="DBV_R-PDSO-G6" value="SN74LVC2G14DBVR" x="5.5" y="1.85" smashed="yes" rot="MR270">
+<element name="IC7" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" package="DBV_R-PDSO-G6" value="742G17DBV" x="5.5" y="1.85" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="296-13010-1-ND" x="5.5" y="1.85" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="29.2" y="2.7" smashed="yes" rot="R270">
