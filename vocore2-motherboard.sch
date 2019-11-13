@@ -888,7 +888,6 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="36_1" x="-11.808" y="0.257" drill="0.61"/>
 <pad name="43_1" x="-11.808" y="-1.013" drill="0.61"/>
 <pad name="44_1" x="-11.808" y="-2.283" drill="0.61"/>
-<pad name="45_1" x="-11.808" y="-3.553" drill="0.61"/>
 <pad name="46_1" x="-11.808" y="-4.823" drill="0.61"/>
 <pad name="47_1" x="-11.808" y="-6.093" drill="0.61"/>
 <pad name="48_1" x="-11.808" y="-7.363" drill="0.61"/>
@@ -1152,7 +1151,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="P0TN" pad="36_1 36_2"/>
 <connect gate="G$1" pin="P0TP" pad="35_1 35_2"/>
 <connect gate="G$1" pin="P2RN" pad="46_1 46_2"/>
-<connect gate="G$1" pin="P2RP" pad="45_1 45_2"/>
+<connect gate="G$1" pin="P2RP" pad="45_2"/>
 <connect gate="G$1" pin="P2TN" pad="48_1 48_2"/>
 <connect gate="G$1" pin="P2TP" pad="47_1 47_2"/>
 <connect gate="G$1" pin="PWM0" pad="40"/>
