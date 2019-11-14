@@ -23418,6 +23418,27 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 <part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PRTR5V0U2X" device="">
+<attribute name="DIGIKEY" value="1727-3884-1-ND"/>
+<attribute name="FARNELL" value="1524157"/>
+</part>
+<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PRTR5V0U2X" device="">
+<attribute name="DIGIKEY" value="1727-3884-1-ND"/>
+<attribute name="FARNELL" value="1524157"/>
+</part>
+<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PRTR5V0U2X" device="">
+<attribute name="DIGIKEY" value="1727-3884-1-ND"/>
+<attribute name="FARNELL" value="1524157"/>
+</part>
+<part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
+<attribute name="SPICEPREFIX" value="G"/>
+</part>
+<part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
+<attribute name="SPICEPREFIX" value="G"/>
+</part>
+<part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
+<attribute name="SPICEPREFIX" value="G"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -25569,6 +25590,33 @@ XRSTJ=1: RESET deasserted</text>
 <attribute name="VALUE" x="153.035" y="53.848" size="1.778" layer="96" rot="R90"/>
 <attribute name="DIGIKEY" x="147.32" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="D5" gate="G$1" x="-22.86" y="38.1" smashed="yes" rot="R90">
+<attribute name="FARNELL" x="-22.86" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-33.02" y="32.9565" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-12.7635" y="32.9565" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-22.86" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="D6" gate="G$1" x="-50.8" y="7.62" smashed="yes" rot="R90">
+<attribute name="FARNELL" x="-50.8" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-60.96" y="2.4765" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-40.7035" y="2.4765" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-50.8" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="D7" gate="G$1" x="-22.86" y="-20.32" smashed="yes" rot="R90">
+<attribute name="FARNELL" x="-22.86" y="-20.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-33.02" y="-25.4635" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-12.7635" y="-25.4635" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-22.86" y="-20.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND47" gate="1" x="-30.48" y="25.4" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-27.94" y="22.86" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND48" gate="1" x="-58.42" y="-5.08" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-55.88" y="-7.62" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND49" gate="1" x="-30.48" y="-33.02" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-27.94" y="-35.56" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25807,6 +25855,21 @@ XRSTJ=1: RESET deasserted</text>
 <junction x="200.66" y="104.14"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="GND"/>
+<wire x1="-30.48" y1="30.48" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="GND"/>
+<wire x1="-58.42" y1="0" x2="-58.42" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="GND"/>
+<wire x1="-30.48" y1="-27.94" x2="-30.48" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="GND49" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="USB_UP_D-" class="0">
 <segment>
@@ -25833,6 +25896,11 @@ XRSTJ=1: RESET deasserted</text>
 <wire x1="30.48" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 <label x="27.94" y="15.24" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="IO2"/>
+<wire x1="-15.24" y1="-12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-12.7" y="-12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="X1_USB_D-" class="0">
 <segment>
@@ -25844,6 +25912,11 @@ XRSTJ=1: RESET deasserted</text>
 <pinref part="IC2" gate="G$1" pin="DM4"/>
 <wire x1="30.48" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
 <label x="27.94" y="12.7" size="1.27" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="IO1"/>
+<wire x1="-15.24" y1="-27.94" x2="-12.7" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-12.7" y="-27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="X3_USB_D+" class="0">
@@ -25857,6 +25930,11 @@ XRSTJ=1: RESET deasserted</text>
 <pinref part="IC2" gate="G$1" pin="DP2"/>
 <wire x1="30.48" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="IO2"/>
+<wire x1="-15.24" y1="45.72" x2="-12.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="-12.7" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="X3_USB_D-" class="0">
 <segment>
@@ -25868,6 +25946,11 @@ XRSTJ=1: RESET deasserted</text>
 <label x="27.94" y="27.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="IC2" gate="G$1" pin="DM2"/>
 <wire x1="27.94" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="IO1"/>
+<wire x1="-15.24" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
+<label x="-12.7" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -25930,6 +26013,11 @@ XRSTJ=1: RESET deasserted</text>
 <wire x1="149.86" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 <label x="157.48" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="IO2"/>
+<wire x1="-43.18" y1="15.24" x2="-40.64" y2="15.24" width="0.1524" layer="91"/>
+<label x="-40.64" y="15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="X2_USB_D-" class="0">
 <segment>
@@ -25941,6 +26029,11 @@ XRSTJ=1: RESET deasserted</text>
 <pinref part="X2" gate="G$1" pin="P36"/>
 <wire x1="149.86" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
 <label x="157.48" y="114.3" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="IO1"/>
+<wire x1="-43.18" y1="0" x2="-40.64" y2="0" width="0.1524" layer="91"/>
+<label x="-40.64" y="0" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="X3_3V3" class="0">
@@ -25968,6 +26061,11 @@ XRSTJ=1: RESET deasserted</text>
 <junction x="25.4" y="109.22"/>
 <label x="22.86" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="VCC"/>
+<wire x1="-30.48" y1="45.72" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
+<label x="-30.48" y="48.26" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="X2_3V3" class="0">
 <segment>
@@ -25994,6 +26092,11 @@ XRSTJ=1: RESET deasserted</text>
 <junction x="114.3" y="109.22"/>
 <label x="111.76" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="VCC"/>
+<wire x1="-58.42" y1="15.24" x2="-58.42" y2="17.78" width="0.1524" layer="91"/>
+<label x="-58.42" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="X1_3V3" class="0">
 <segment>
@@ -26019,6 +26122,11 @@ XRSTJ=1: RESET deasserted</text>
 <wire x1="198.12" y1="106.68" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
 <junction x="198.12" y="109.22"/>
 <label x="195.58" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="VCC"/>
+<wire x1="-30.48" y1="-12.7" x2="-30.48" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-30.48" y="-10.16" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="X3_P3" class="0">
