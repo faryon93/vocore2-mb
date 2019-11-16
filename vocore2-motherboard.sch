@@ -22971,6 +22971,64 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 </deviceset>
 </devicesets>
 </library>
+<library name="con-jst">
+<packages>
+<package name="BM03B-SRSS-TB">
+<wire x1="-2.5" y1="-1.45" x2="2.5" y2="-1.45" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-1.45" x2="2.5" y2="1.45" width="0.1" layer="21"/>
+<wire x1="2.5" y1="1.45" x2="-2.5" y2="1.45" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="1.45" x2="-2.5" y2="-1.45" width="0.1" layer="21"/>
+<smd name="1" x="-1" y="1.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="0" y="1.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="1" y="1.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="G1" x="-2.3" y="-0.75" dx="1.2" dy="1.8" layer="1"/>
+<smd name="G2" x="2.3" y="-0.75" dx="1.2" dy="1.8" layer="1"/>
+<text x="-3.5" y="-2.6" size="0.75" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHRAUBKLEMME">
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<circle x="11.43" y="0" radius="0.6839" width="0.254" layer="94"/>
+<text x="1.27" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
+<text x="13.97" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="GND-PIN">
+<pin name="GND" x="0" y="-5.08" length="middle" direction="pwr" rot="R90"/>
+<circle x="0" y="2.54" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BM03B-SRSS-TB" prefix="X">
+<description>&lt;h1&gt;1.0mm displacement connector&lt;/h1&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCHRAUBKLEMME" x="-5.08" y="5.08"/>
+<gate name="G$2" symbol="SCHRAUBKLEMME" x="-5.08" y="0"/>
+<gate name="G$3" symbol="SCHRAUBKLEMME" x="-5.08" y="-5.08"/>
+<gate name="G$4" symbol="GND-PIN" x="-35.56" y="0"/>
+</gates>
+<devices>
+<device name="" package="BM03B-SRSS-TB">
+<connects>
+<connect gate="G$1" pin="K" pad="1"/>
+<connect gate="G$2" pin="K" pad="2"/>
+<connect gate="G$3" pin="K" pad="3"/>
+<connect gate="G$4" pin="GND" pad="G1 G2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="455-1789-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23439,6 +23497,8 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
+<part name="X4" library="con-jst" deviceset="BM03B-SRSS-TB" device=""/>
+<part name="GND50" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23726,6 +23786,19 @@ Output</text>
 <instance part="GND46" gate="1" x="238.76" y="43.18" smashed="yes">
 <attribute name="VALUE" x="236.22" y="40.64" size="1.778" layer="96"/>
 </instance>
+<instance part="X4" gate="G$1" x="109.22" y="45.72" smashed="yes">
+<attribute name="NAME" x="110.49" y="44.831" size="1.778" layer="95"/>
+</instance>
+<instance part="X4" gate="G$2" x="109.22" y="40.64" smashed="yes">
+<attribute name="NAME" x="110.49" y="39.751" size="1.778" layer="95"/>
+</instance>
+<instance part="X4" gate="G$3" x="109.22" y="35.56" smashed="yes">
+<attribute name="NAME" x="110.49" y="34.671" size="1.778" layer="95"/>
+</instance>
+<instance part="X4" gate="G$4" x="114.3" y="22.86" smashed="yes"/>
+<instance part="GND50" gate="1" x="114.3" y="12.7" smashed="yes">
+<attribute name="VALUE" x="111.76" y="10.16" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23860,6 +23933,16 @@ Output</text>
 <wire x1="243.84" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="48.26" x2="238.76" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND46" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$4" pin="GND"/>
+<wire x1="114.3" y1="17.78" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND50" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$3" pin="K"/>
+<wire x1="106.68" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<label x="104.14" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PE" class="0">
@@ -24133,6 +24216,20 @@ Output</text>
 <pinref part="IC1" gate="G$1" pin="BST"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="X4" gate="G$2" pin="K"/>
+<wire x1="106.68" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<label x="104.14" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="X4" gate="G$1" pin="K"/>
+<wire x1="106.68" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
+<label x="104.14" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
