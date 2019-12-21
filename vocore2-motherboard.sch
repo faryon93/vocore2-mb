@@ -878,62 +878,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="12.9" y1="12.9" x2="12.9" y2="7" width="0.127" layer="21"/>
 <wire x1="-12.9" y1="-12.9" x2="-12.9" y2="-10.9" width="0.127" layer="21"/>
 <wire x1="12.9" y1="-12.9" x2="5.7" y2="-12.9" width="0.127" layer="21"/>
-<pad name="+3.3V_1" x="-11.808" y="9.147" drill="0.61"/>
-<pad name="30_1" x="-11.808" y="7.877" drill="0.61"/>
-<pad name="31_1" x="-11.808" y="6.607" drill="0.61"/>
-<pad name="29_1" x="-11.808" y="5.337" drill="0.61"/>
-<pad name="33_1" x="-11.808" y="4.067" drill="0.61"/>
-<pad name="34_1" x="-11.808" y="2.797" drill="0.61"/>
-<pad name="35_1" x="-11.808" y="1.527" drill="0.61"/>
-<pad name="36_1" x="-11.808" y="0.257" drill="0.61"/>
-<pad name="43_1" x="-11.808" y="-1.013" drill="0.61"/>
-<pad name="44_1" x="-11.808" y="-2.283" drill="0.61"/>
-<pad name="46_1" x="-11.808" y="-4.823" drill="0.61"/>
-<pad name="47_1" x="-11.808" y="-6.093" drill="0.61"/>
-<pad name="48_1" x="-11.808" y="-7.363" drill="0.61"/>
-<pad name="49_1" x="-11.808" y="-8.633" drill="0.61"/>
-<pad name="50_1" x="-11.808" y="-9.903" drill="0.61"/>
-<pad name="GND1" x="-11.808" y="-11.808" drill="0.61"/>
-<pad name="51_1" x="-10.538" y="-11.808" drill="0.61"/>
-<pad name="52_1" x="-9.268" y="-11.808" drill="0.61"/>
-<pad name="54_1" x="-7.998" y="-11.808" drill="0.61"/>
-<pad name="55_1" x="-6.728" y="-11.808" drill="0.61"/>
-<pad name="56_1" x="-5.458" y="-11.808" drill="0.61"/>
-<pad name="57_1" x="-4.188" y="-11.808" drill="0.61"/>
-<pad name="+3.3V_2" x="-2.918" y="-11.808" drill="0.61"/>
-<pad name="61_1" x="-1.648" y="-11.808" drill="0.61"/>
-<pad name="62_1" x="-0.378" y="-11.808" drill="0.61"/>
-<pad name="+5.0V_1" x="0.892" y="-11.808" drill="0.61"/>
-<pad name="+5.0V_2" x="2.162" y="-11.808" drill="0.61"/>
-<pad name="GND2" x="3.432" y="-11.808" drill="0.61"/>
-<pad name="GND3" x="4.702" y="-11.808" drill="0.61"/>
-<pad name="+1.8V_1" x="11.814" y="-11.808" drill="0.61"/>
-<pad name="GND4" x="11.814" y="-10.538" drill="0.61"/>
-<pad name="GND5" x="11.814" y="-9.268" drill="0.61"/>
-<pad name="+3.3V_3" x="11.814" y="-7.998" drill="0.61"/>
-<pad name="136_1" x="11.814" y="-6.728" drill="0.61"/>
-<pad name="137_1" x="11.814" y="-5.458" drill="0.61"/>
-<pad name="138_1" x="11.814" y="-4.188" drill="0.61"/>
-<pad name="142_1" x="11.814" y="-2.918" drill="0.61"/>
-<pad name="143_1" x="11.814" y="-1.648" drill="0.61"/>
-<pad name="139_1" x="11.814" y="-0.378" drill="0.61"/>
-<pad name="140_1" x="11.814" y="0.892" drill="0.61"/>
-<pad name="141_1" x="11.814" y="2.162" drill="0.61"/>
-<pad name="147_1" x="11.814" y="3.432" drill="0.61"/>
-<pad name="148_1" x="11.814" y="4.702" drill="0.61"/>
-<pad name="GND6" x="11.814" y="5.972" drill="0.61"/>
-<pad name="17_1" x="6.226" y="11.814" drill="0.61"/>
-<pad name="16_1" x="4.956" y="11.814" drill="0.61"/>
-<pad name="18_1" x="3.686" y="11.814" drill="0.61"/>
-<pad name="19_1" x="2.416" y="11.814" drill="0.61"/>
-<pad name="20_1" x="1.146" y="11.814" drill="0.61"/>
-<pad name="21_1" x="-0.124" y="11.814" drill="0.61"/>
-<pad name="24_1" x="-1.394" y="11.814" drill="0.61"/>
-<pad name="27_1" x="-2.664" y="11.814" drill="0.61"/>
-<pad name="26_1" x="-3.934" y="11.814" drill="0.61"/>
-<pad name="25_1" x="-5.204" y="11.814" drill="0.61"/>
-<pad name="28_1" x="-6.474" y="11.814" drill="0.61"/>
-<pad name="GND7" x="-7.744" y="11.814" drill="0.61"/>
 <pad name="42" x="-10.512" y="-2.283" drill="0.61"/>
 <pad name="40" x="-10.512" y="-1.013" drill="0.61"/>
 <smd name="+3.3V_4" x="-13.16" y="9.147" dx="1.58" dy="1.12" layer="1"/>
@@ -1001,6 +945,14 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="0.21213125" y1="-8.273146875" x2="-0.21213125" y2="-8.273146875" width="0.1524" layer="51" curve="-90"/>
 <wire x1="-0.21213125" y1="-8.273146875" x2="-8.273146875" y2="-0.21213125" width="0.1524" layer="51"/>
 <wire x1="-8.273146875" y1="-0.21213125" x2="-8.273146875" y2="0.21213125" width="0.1524" layer="51" curve="-90"/>
+<wire x1="10.53" y1="-12.13" x2="-10.63" y2="-12.13" width="0" layer="20"/>
+<wire x1="-10.63" y1="-12.13" x2="-12.13" y2="-10.63" width="0" layer="20" curve="-90"/>
+<wire x1="-12.13" y1="-10.63" x2="-12.13" y2="10.63" width="0" layer="20"/>
+<wire x1="-12.13" y1="10.63" x2="-10.63" y2="12.13" width="0" layer="20" curve="-90"/>
+<wire x1="-10.63" y1="12.13" x2="10.53" y2="12.13" width="0" layer="20"/>
+<wire x1="10.53" y1="12.13" x2="12.03" y2="10.63" width="0" layer="20" curve="-90"/>
+<wire x1="12.03" y1="10.63" x2="12.03" y2="-10.63" width="0" layer="20"/>
+<wire x1="12.03" y1="-10.63" x2="10.53" y2="-12.13" width="0" layer="20" curve="-90"/>
 </package>
 </packages>
 <symbols>
@@ -1129,56 +1081,56 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 <device name="-SMD" package="VOCORE2_SMD">
 <connects>
-<connect gate="G$1" pin="+1.8VO" pad="+1.8V_1 +1.8V_2"/>
-<connect gate="G$1" pin="+3.3VO" pad="+3.3V_1 +3.3V_2 +3.3V_3 +3.3V_4 +3.3V_5 +3.3V_6"/>
-<connect gate="G$1" pin="+5.0VI" pad="+5.0V_1 +5.0V_2 +5.0V_3 +5.0V_4"/>
-<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14"/>
-<connect gate="G$1" pin="GPIO37" pad="136_1 136_2"/>
-<connect gate="G$1" pin="GPIO38" pad="137_1 137_2"/>
-<connect gate="G$1" pin="GPIO39" pad="139_1 139_2"/>
-<connect gate="G$1" pin="GPIO40" pad="140_1 140_2"/>
-<connect gate="G$1" pin="GPIO41" pad="141_1 141_2"/>
-<connect gate="G$1" pin="GPIO42" pad="142_1 142_2"/>
-<connect gate="G$1" pin="GPIO43" pad="143_1 143_2"/>
-<connect gate="G$1" pin="I2C_CLK" pad="20_1 20_2"/>
-<connect gate="G$1" pin="I2C_SD" pad="21_1 21_2"/>
-<connect gate="G$1" pin="I2S_CLK" pad="19_1 19_2"/>
-<connect gate="G$1" pin="I2S_SDI" pad="16_1 16_2"/>
-<connect gate="G$1" pin="I2S_SDO" pad="17_1 17_2"/>
-<connect gate="G$1" pin="I2S_WS" pad="18_1 18_2"/>
-<connect gate="G$1" pin="P0RN" pad="34_1 34_2"/>
-<connect gate="G$1" pin="P0RP" pad="33_1 33_2"/>
-<connect gate="G$1" pin="P0TN" pad="36_1 36_2"/>
-<connect gate="G$1" pin="P0TP" pad="35_1 35_2"/>
-<connect gate="G$1" pin="P2RN" pad="46_1 46_2"/>
+<connect gate="G$1" pin="+1.8VO" pad="+1.8V_2"/>
+<connect gate="G$1" pin="+3.3VO" pad="+3.3V_4 +3.3V_5 +3.3V_6"/>
+<connect gate="G$1" pin="+5.0VI" pad="+5.0V_3 +5.0V_4"/>
+<connect gate="G$1" pin="GND" pad="GND8 GND9 GND10 GND11 GND12 GND13 GND14"/>
+<connect gate="G$1" pin="GPIO37" pad="136_2"/>
+<connect gate="G$1" pin="GPIO38" pad="137_2"/>
+<connect gate="G$1" pin="GPIO39" pad="139_2"/>
+<connect gate="G$1" pin="GPIO40" pad="140_2"/>
+<connect gate="G$1" pin="GPIO41" pad="141_2"/>
+<connect gate="G$1" pin="GPIO42" pad="142_2"/>
+<connect gate="G$1" pin="GPIO43" pad="143_2"/>
+<connect gate="G$1" pin="I2C_CLK" pad="20_2"/>
+<connect gate="G$1" pin="I2C_SD" pad="21_2"/>
+<connect gate="G$1" pin="I2S_CLK" pad="19_2"/>
+<connect gate="G$1" pin="I2S_SDI" pad="16_2"/>
+<connect gate="G$1" pin="I2S_SDO" pad="17_2"/>
+<connect gate="G$1" pin="I2S_WS" pad="18_2"/>
+<connect gate="G$1" pin="P0RN" pad="34_2"/>
+<connect gate="G$1" pin="P0RP" pad="33_2"/>
+<connect gate="G$1" pin="P0TN" pad="36_2"/>
+<connect gate="G$1" pin="P0TP" pad="35_2"/>
+<connect gate="G$1" pin="P2RN" pad="46_2"/>
 <connect gate="G$1" pin="P2RP" pad="45_2"/>
-<connect gate="G$1" pin="P2TN" pad="48_1 48_2"/>
-<connect gate="G$1" pin="P2TP" pad="47_1 47_2"/>
+<connect gate="G$1" pin="P2TN" pad="48_2"/>
+<connect gate="G$1" pin="P2TP" pad="47_2"/>
 <connect gate="G$1" pin="PWM0" pad="40"/>
 <connect gate="G$1" pin="PWM1" pad="42"/>
-<connect gate="G$1" pin="REFCLK" pad="29_1 29_2"/>
-<connect gate="G$1" pin="RST" pad="138_1 138_2"/>
-<connect gate="G$1" pin="RXD0" pad="31_1 31_2"/>
-<connect gate="G$1" pin="RXD1" pad="148_1 148_2"/>
-<connect gate="G$1" pin="RXD2" pad="44_1 44_2"/>
-<connect gate="G$1" pin="SD_CD" pad="50_1 50_2"/>
-<connect gate="G$1" pin="SD_CLK" pad="54_1 54_2"/>
-<connect gate="G$1" pin="SD_CMD" pad="55_1 55_2"/>
-<connect gate="G$1" pin="SD_D0" pad="52_1 52_2"/>
-<connect gate="G$1" pin="SD_D1" pad="51_1 51_2"/>
-<connect gate="G$1" pin="SD_D2" pad="57_1 57_2"/>
-<connect gate="G$1" pin="SD_D3" pad="56_1 56_2"/>
-<connect gate="G$1" pin="SD_WP" pad="49_1 49_2"/>
-<connect gate="G$1" pin="SPI_CLK" pad="25_1 25_2"/>
-<connect gate="G$1" pin="SPI_CS0" pad="28_1 28_2"/>
-<connect gate="G$1" pin="SPI_CS1" pad="24_1 24_2"/>
-<connect gate="G$1" pin="SPI_MISO" pad="26_1 26_2"/>
-<connect gate="G$1" pin="SPI_MOSI" pad="27_1 27_2"/>
-<connect gate="G$1" pin="TXD0" pad="30_1 30_2"/>
-<connect gate="G$1" pin="TXD1" pad="147_1 147_2"/>
-<connect gate="G$1" pin="TXD2" pad="43_1 43_2"/>
-<connect gate="G$1" pin="USB_DM" pad="62_1 62_2"/>
-<connect gate="G$1" pin="USB_DP" pad="61_1 61_2"/>
+<connect gate="G$1" pin="REFCLK" pad="29_2"/>
+<connect gate="G$1" pin="RST" pad="138_2"/>
+<connect gate="G$1" pin="RXD0" pad="31_2"/>
+<connect gate="G$1" pin="RXD1" pad="148_2"/>
+<connect gate="G$1" pin="RXD2" pad="44_2"/>
+<connect gate="G$1" pin="SD_CD" pad="50_2"/>
+<connect gate="G$1" pin="SD_CLK" pad="54_2"/>
+<connect gate="G$1" pin="SD_CMD" pad="55_2"/>
+<connect gate="G$1" pin="SD_D0" pad="52_2"/>
+<connect gate="G$1" pin="SD_D1" pad="51_2"/>
+<connect gate="G$1" pin="SD_D2" pad="57_2"/>
+<connect gate="G$1" pin="SD_D3" pad="56_2"/>
+<connect gate="G$1" pin="SD_WP" pad="49_2"/>
+<connect gate="G$1" pin="SPI_CLK" pad="25_2"/>
+<connect gate="G$1" pin="SPI_CS0" pad="28_2"/>
+<connect gate="G$1" pin="SPI_CS1" pad="24_2"/>
+<connect gate="G$1" pin="SPI_MISO" pad="26_2"/>
+<connect gate="G$1" pin="SPI_MOSI" pad="27_2"/>
+<connect gate="G$1" pin="TXD0" pad="30_2"/>
+<connect gate="G$1" pin="TXD1" pad="147_2"/>
+<connect gate="G$1" pin="TXD2" pad="43_2"/>
+<connect gate="G$1" pin="USB_DM" pad="62_2"/>
+<connect gate="G$1" pin="USB_DP" pad="61_2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22009,13 +21961,13 @@ Based on the datasheets for the following products.&lt;br&gt;
 <wire x1="3.6068" y1="4.191" x2="4.7498" y2="4.191" width="0.1524" layer="51"/>
 <wire x1="4.7498" y1="4.191" x2="4.7498" y2="4.699" width="0.1524" layer="51"/>
 <wire x1="4.7498" y1="4.699" x2="3.6068" y2="4.699" width="0.1524" layer="51"/>
-<wire x1="-3.6068" y1="-6.1468" x2="3.6068" y2="-6.1468" width="0.1524" layer="51"/>
-<wire x1="3.6068" y1="-6.1468" x2="3.6068" y2="6.1468" width="0.1524" layer="51"/>
-<wire x1="3.6068" y1="6.1468" x2="0.3048" y2="6.1468" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="6.1468" x2="-0.3048" y2="6.1468" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="6.1468" x2="-3.6068" y2="6.1468" width="0.1524" layer="51"/>
-<wire x1="-3.6068" y1="6.1468" x2="-3.6068" y2="-6.1468" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="6.1468" x2="-0.3048" y2="6.1468" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-3.6068" y1="-6.1468" x2="3.6068" y2="-6.1468" width="0.1524" layer="21"/>
+<wire x1="3.6068" y1="-6.1468" x2="3.6068" y2="6.1468" width="0.1524" layer="21"/>
+<wire x1="3.6068" y1="6.1468" x2="0.3048" y2="6.1468" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="6.1468" x2="-0.3048" y2="6.1468" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="6.1468" x2="-3.6068" y2="6.1468" width="0.1524" layer="21"/>
+<wire x1="-3.6068" y1="6.1468" x2="-3.6068" y2="-6.1468" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="6.1468" x2="-0.3048" y2="6.1468" width="0.1524" layer="21" curve="-180"/>
 <text x="-3.6576" y="-7.239" size="0.762" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="CONN8_1775470-8">
@@ -23066,9 +23018,7 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 <attribute name="PREIS" value="0,106"/>
 </part>
 <part name="C18" library="rcl" deviceset="C-EU" device="C1206" value="4.7µF 50V">
-<attribute name="BUERKLIN" value="53 D 3425"/>
-<attribute name="MBM" value="10"/>
-<attribute name="PREIS" value="0,61"/>
+<attribute name="DIGIKEY" value="587-2994-1-ND"/>
 </part>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2">
 <attribute name="FARNELL" value="1858651"/>
@@ -23130,7 +23080,7 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 <attribute name="DIGIKEY" value="160-1447-1-ND"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="IC4" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="LM3671" device="" value="LM3671MF-3.3">
 <attribute name="DIGIKEY" value="LM3671MF-3.3/NOPBCT-ND"/>
 <attribute name="FARNELL" value="1685767"/>
@@ -23377,9 +23327,7 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 </part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="C57" library="rcl" deviceset="C-EU" device="C0805" value="10nF 500V">
-<attribute name="BUERKLIN" value="56D510"/>
-<attribute name="MBM" value="1"/>
-<attribute name="PREIS" value="0,13"/>
+<attribute name="DIGIKEY" value="709-1021-1-ND"/>
 </part>
 <part name="GND75" library="supply1" deviceset="GND" device=""/>
 <part name="L8" library="rcl" deviceset="L-EU" device="L0805">
@@ -23465,8 +23413,8 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 </spice>
 <attribute name="DIGIKEY" value="490-4780-1-ND"/>
 </part>
-<part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="RED">
-<attribute name="DIGIKEY" value="160-1447-1-ND"/>
+<part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GREEN">
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330R"/>
@@ -23515,7 +23463,7 @@ Datasheet: https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.p
 <wire x1="121.92" y1="68.58" x2="256.54" y2="68.58" width="0.1524" layer="94"/>
 <text x="114.3" y="101.6" size="1.27" layer="98" align="bottom-center">2A Continuous
 Output</text>
-<text x="22.86" y="25.4" size="1.778" layer="98" rot="R90">I=10mA @ Vf=2V</text>
+<text x="22.86" y="25.4" size="1.778" layer="98" rot="R90">I=6.4mA @ Vf=2V</text>
 <text x="50.8" y="25.4" size="1.778" layer="98" rot="R90">I=3mA @ Vf=2V</text>
 </plain>
 <instances>
@@ -23564,11 +23512,9 @@ Output</text>
 <attribute name="VALUE" x="82.169" y="145.542" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C18" gate="G$1" x="88.9" y="149.86" smashed="yes">
-<attribute name="BUERKLIN" x="88.9" y="149.86" size="1.778" layer="96" display="off"/>
-<attribute name="MBM" x="88.9" y="149.86" size="1.778" layer="96" display="off"/>
-<attribute name="PREIS" x="88.9" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="90.424" y="150.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="90.424" y="145.161" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="88.9" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="38.1" y="154.94" smashed="yes">
 <attribute name="FARNELL" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
@@ -24404,13 +24350,13 @@ Output</text>
 <attribute name="NAME" x="197.104" y="94.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="197.104" y="89.281" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="G$1" x="185.42" y="109.22" smashed="yes">
-<attribute name="NAME" x="181.61" y="110.7186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="187.452" y="110.7186" size="1.778" layer="96"/>
+<instance part="R20" gate="G$1" x="195.58" y="109.22" smashed="yes">
+<attribute name="NAME" x="191.77" y="110.7186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="197.612" y="110.7186" size="1.778" layer="96"/>
 </instance>
-<instance part="R21" gate="G$1" x="185.42" y="106.68" smashed="yes" rot="R180">
-<attribute name="NAME" x="186.182" y="105.1814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="192.024" y="105.1814" size="1.778" layer="96" rot="R180"/>
+<instance part="R21" gate="G$1" x="195.58" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="196.342" y="105.1814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="202.184" y="105.1814" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LED8" gate="G$1" x="170.18" y="157.48" smashed="yes">
 <attribute name="NAME" x="173.736" y="152.908" size="1.778" layer="95" rot="R90"/>
@@ -24990,8 +24936,8 @@ Output</text>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
-<label x="177.8" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
+<label x="187.96" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
@@ -25008,8 +24954,8 @@ Output</text>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<label x="177.8" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
+<label x="187.96" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -25088,14 +25034,14 @@ Output</text>
 <segment>
 <pinref part="IC8" gate="G$1" pin="USBDM"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="USBDP"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35165" class="0">
@@ -25189,11 +25135,9 @@ Output</text>
 <attribute name="VALUE" x="101.6" y="20.32" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C57" gate="G$1" x="195.58" y="83.82" smashed="yes" rot="MR0">
-<attribute name="BUERKLIN" x="195.58" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MBM" x="195.58" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="PREIS" x="195.58" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="194.056" y="84.201" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="194.056" y="79.121" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="195.58" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND75" gate="1" x="195.58" y="73.66" smashed="yes">
 <attribute name="VALUE" x="193.04" y="71.12" size="1.778" layer="96"/>
