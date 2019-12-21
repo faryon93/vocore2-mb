@@ -21992,6 +21992,7 @@ Based on the datasheets for the following products.&lt;br&gt;
 <wire x1="9.6774" y1="0.6096" x2="-9.7028" y2="0.6096" width="0.1524" layer="51"/>
 <wire x1="-9.7028" y1="0.6096" x2="-9.7028" y2="-4.8006" width="0.1524" layer="51"/>
 <text x="-9.7536" y="-6.477" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="9.7282" y1="0.6096" x2="9.7282" y2="-4.8006" width="0.1524" layer="51"/>
 </package>
 </packages>
 <symbols>
